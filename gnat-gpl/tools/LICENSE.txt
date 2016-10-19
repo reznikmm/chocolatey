@@ -1,0 +1,5 @@
+﻿From: http://www.gnu.org/copyleft/gpl.html
+
+LICENSE
+
+GPL

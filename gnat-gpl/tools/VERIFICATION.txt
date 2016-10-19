@@ -1,0 +1,7 @@
+﻿VERIFICATION
+
+SHA1 checksum is available on downloading site:
+http://libre.adacore.com/download/configurations
+
+Look for gnat-gpl-2016-x86-windows-bin.exe 
+under GNAT Ada 2016 for x86 Windows (32) platform.
