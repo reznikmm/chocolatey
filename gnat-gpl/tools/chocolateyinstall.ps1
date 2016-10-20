@@ -25,7 +25,7 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-
+Install-ChocolateyPath -PathToInstall "$($env:SystemDrive)\GNATPRO\bin"
 
 
 
