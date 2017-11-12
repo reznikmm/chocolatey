@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
@@ -19,7 +19,10 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>gnat ada compiler gpl admin</tags>
     <summary>GNAT GPL - GNAT compilation system</summary>
-    <description>GNU Ada Compiler, tools and IDE</description>
+    <description>GNU Ada Compiler, tools and IDE.
+
+The package installed into C:\GNATPRO because installer uses this directory in silent mode.
+</description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      
 
