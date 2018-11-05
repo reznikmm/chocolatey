@@ -4,12 +4,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gnat-gpl</id>
-    <version>2016.0</version>
+    <version>2018.0</version>
     <packageSourceUrl>https://github.com/reznikmm/chocolatey</packageSourceUrl>
     <owners>Maxim Reznik</owners>
-    <title>GNAT GPL</title>
+    <title>GNAT Community</title>
     <authors>AdaCore</authors>
-    <projectUrl>http://libre.adacore.com/download/configurations</projectUrl>
+    <projectUrl>https://www.adacore.com/download</projectUrl>
     <iconUrl>https://cdn.rawgit.com/reznikmm/chocolatey/master/gnat-gpl/gnat.png</iconUrl>
     <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -18,13 +18,15 @@
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>gnat ada compiler gpl admin</tags>
-    <summary>GNAT GPL - GNAT compilation system</summary>
-    <description>GNU Ada Compiler, tools and IDE.
+    <summary>GNAT Community - GNAT compilation system</summary>
+    <description>GNU Ada Compiler and tools.
 
-The package installed into C:\GNATPRO because installer uses this directory in silent mode.
+The package installed into C:\GNAT.
 </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-    <!-- =============================== -->      
+    <releaseNotes>Product was renamed to GNAT Community Edition. Compiler and generated code is 64-bit now.
+You can find short release notes here: https://blog.adacore.com/gnat-community-2018
+</releaseNotes>
+    <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <!--<dependencies>
