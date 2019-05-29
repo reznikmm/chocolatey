@@ -2,9 +2,9 @@
 
 $packageName  = 'gnat-gpl'
 $fileType     = 'exe'
-$url          = 'http://mirrors.cdn.adacore.com/art/5b30f4e6c7a4477116360355'
+$url          = 'http://mirrors.cdn.adacore.com/art/5ce0326131e87a8f1d425400'
 $silentArgs   = "--script $($env:ChocolateyPackageFolder)\tools\install.qs"
-$checksum     = '18181e5631662c55214c5e39a689995dfa8c627f'
+$checksum     = 'c13b2d02d23057d9251bcdc9a073cb932177f016'
 $checksumType = 'sha1'
 
 Install-ChocolateyPackage $packageName $fileType $silentArgs $url -Checksum $checksum -ChecksumType $checksumType

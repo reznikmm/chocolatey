@@ -4,7 +4,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gnat-gpl</id>
-    <version>2018.0</version>
+    <version>2019.0</version>
     <packageSourceUrl>https://github.com/reznikmm/chocolatey</packageSourceUrl>
     <owners>Maxim Reznik</owners>
     <title>GNAT Community</title>
@@ -23,8 +23,7 @@
 
 The package installed into C:\GNAT.
 </description>
-    <releaseNotes>Product was renamed to GNAT Community Edition. Compiler and generated code is 64-bit now.
-You can find short release notes here: https://blog.adacore.com/gnat-community-2018
+    <releaseNotes>Next release of GNAT Community Edition.
 </releaseNotes>
     <!-- =============================== -->
 
