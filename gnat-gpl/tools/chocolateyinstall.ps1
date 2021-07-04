@@ -2,9 +2,9 @@
 
 $packageName  = 'gnat-gpl'
 $fileType     = 'exe'
-$url          = 'https://community.download.adacore.com/v1/85091aafe5cb9463f1bfa20a53b6aa0931bf9fc2?filename=gnat-2020-20200818-x86_64-windows-bin.exe'
+$url          = 'https://community.download.adacore.com/v1/797dbae8bdb8a3f661dad78dd73d8e40218a68d8?filename=gnat-2021-20210519-x86_64-windows64-bin.exe'
 $silentArgs   = "--script $($env:ChocolateyPackageFolder)\tools\install.qs"
-$checksum     = '85091aafe5cb9463f1bfa20a53b6aa0931bf9fc2'
+$checksum     = '797dbae8bdb8a3f661dad78dd73d8e40218a68d8'
 $checksumType = 'sha1'
 
 Install-ChocolateyPackage $packageName $fileType $silentArgs $url -Checksum $checksum -ChecksumType $checksumType
